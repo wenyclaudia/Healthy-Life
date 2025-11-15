@@ -685,8 +685,6 @@ a {
 .cid-v2vd5RpQ6D {
   z-index: 1000;
   width: 100%;
-  position: relative;
-  min-height: 60px;
 }
 .cid-v2vd5RpQ6D nav.navbar {
   position: fixed;
@@ -794,8 +792,7 @@ a {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.8);
 }
 .cid-v2vd5RpQ6D .navbar.opened {
   transition: all 0.3s;
@@ -821,7 +818,7 @@ a {
 }
 @media (min-width: 992px) {
   .cid-v2vd5RpQ6D .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 5.9rem);
+    max-height: calc(98.5vh - 5rem);
   }
 }
 .cid-v2vd5RpQ6D .navbar.collapsed .dropdown-menu .dropdown-submenu {
@@ -1061,4 +1058,64 @@ a {
   height: 100%;
   position: absolute;
   top: 0;
+}
+.cid-v2CzpCugaB {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ececec;
+}
+.cid-v2CzpCugaB img,
+.cid-v2CzpCugaB .item-img {
+  width: 100%;
+  height: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.cid-v2CzpCugaB .item:focus,
+.cid-v2CzpCugaB span:focus {
+  outline: none;
+}
+.cid-v2CzpCugaB .item {
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+.cid-v2CzpCugaB .item-wrapper {
+  position: relative;
+  border-radius: 4px;
+  background: #fafafa;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+@media (min-width: 992px) {
+  .cid-v2CzpCugaB .item-wrapper .item-content {
+    padding: 2rem 2rem 0;
+  }
+  .cid-v2CzpCugaB .item-wrapper .item-footer {
+    padding: 0 2rem 2rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-v2CzpCugaB .item-wrapper .item-content {
+    padding: 1rem 1rem 0;
+  }
+  .cid-v2CzpCugaB .item-wrapper .item-footer {
+    padding: 0 1rem 1rem;
+  }
+}
+.cid-v2CzpCugaB .mbr-section-btn {
+  margin-top: auto !important;
+}
+.cid-v2CzpCugaB .mbr-section-title {
+  color: #232323;
+}
+.cid-v2CzpCugaB .mbr-text,
+.cid-v2CzpCugaB .mbr-section-btn {
+  text-align: left;
+}
+.cid-v2CzpCugaB .item-title {
+  text-align: left;
+}
+.cid-v2CzpCugaB .item-subtitle {
+  text-align: left;
 }
